@@ -1,0 +1,110 @@
+body{
+	background-image: url(https://images.unsplash.com/photo-1574150776804-2bc95619b1ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*height: 100px;*/
+	background-attachment: fixed;
+	font-family: Roboto Slab;
+}
+
+.navbar-brand{
+	margin-left:20px;
+	margin-right: 20px;
+	font-weight: 700;
+	font-size: 35px;
+	letter-spacing: 3px;
+
+}
+.nav-item{
+	margin-left:20px;
+	margin-right: 20px;
+	width:120px;
+	text-align: center;
+	font-size: 20px;
+}
+.nav-item:hover{
+	background-color: rgb(163, 163, 157);
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+	color:white;
+	margin-top:110px;
+	margin-left:300px;
+}
+
+.subtitle{
+	margin-left: 300px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.home-buttons button{
+	margin-top:30px;
+	margin-left:750px;
+}
+
+.btn-text{
+	margin-top: 40px;
+	margin-left: 550px;
+	font-size: 20px;
+	color:white;
+}
+
+.card {
+	position: absolute;
+	top:240px;
+	left:10px;
+	height:260px;
+	background-color: rgba(163, 163, 149, 0.2);
+	color: white;
+	text-align: center;
+}
+
+.card-link{
+	color:rgb(7, 252, 3);
+	/*color:#68c187;*/
+}
+
+.card-link:hover{
+	color:rgb(7, 252, 3);
+	text-decoration: underline;	
+
+}
+
+.card:hover{
+  box-shadow: 16px 16px 16px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.card2{
+	position: absolute;
+	top:340px;
+	left:280px;
+	height:260px;
+	background-color: rgba(163, 163, 149, 0.2);
+	color: white;
+	text-align: center;
+}
+
+.card3{
+	position: absolute;
+	top:240px;
+	right:10px;
+	height:260px;
+	background-color: rgba(163, 163, 149, 0.2);
+	color: white;
+	text-align: center;
+}
+
+.card4{
+	position: absolute;
+	top:340px;
+	right:280px;
+	height:260px;
+	background-color: rgba(163, 163, 149, 0.2);
+	color: white;
+	text-align: center;
+}
