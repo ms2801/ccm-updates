@@ -10,19 +10,23 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap" rel="stylesheet">
 
-        
-    <link rel="stylesheet" type="text/css" href="myhome.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+	integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	    
+    
 
 
 	<title>MYHOME</title>
 
 </head>
-<body style="background-color: black">
+<body>
 
-  <!-- NAVBAR -->
+  <!-- NAVBAR 
 
-  <div class="navbar stripe navbar-expand-lg navbar-light fixed-top">
-        <a class="text-white navbar-brand" href="#">CCM</a>
+  <div class="navbar navbar-dark bg-dark stripe navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">CCM</a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
             data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
             aria-label="Toggle navigation" style="border:0;">
@@ -31,23 +35,58 @@
         <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 
-                <a class="text-white nav-item nav-link" href="#">Home</a>
+                <a class="nav-item text-white nav-link" href="#">Home</a>
                 
-                <a class="nav-item nav-link text-white" href="#aboutelement">About</a>
+                <a class="nav-item text-white nav-link" href="#aboutelement">About</a>
                 
-                <a class="nav-item nav-link text-white" href="#ourteamelement">Our Team</a>
+                <a class="nav-item text-white nav-link" href="#ourteamelement">Our Team</a>
 
-                <a class="nav-item nav-link text-white" href="#eventselement">Events</a>
+                <a class="nav-item text-white nav-link" href="#eventselement">Events</a>
                 
-                <a class="nav-item nav-link text-white" href="gallery.html">Gallery</a>
+                <a class="nav-item text-white nav-link" href="gallery.html">Gallery</a>
                 
-                <a class="nav-item nav-link text-white" href="#contactelement">Contact</a>
+                <a class="nav-item text-white nav-link" href="#contactelement">Contact</a>
                 
-                <a class="nav-item nav-link text-white" href="FAQ.html">FAQ</a>
+                <a class="nav-item text-white nav-link" href="FAQ.html">FAQ</a>
 
             </div>
         </div>
-    </div>
+	</div> -->
+	
+	<!-- NAVBAR-->
+	<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-lg fixed-top"style="background-color: #1d3557;">
+        <a href="#" class="navbar-brand">CCM</a>
+		<button class="navbar-toggler" data-toggle="collapse" 
+			data-target="#navbarNavAltMarkup" aria-label="Toggle navigation" 
+			aria-controls="navbarNavAltMarkup" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#aboutelement" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ourteamelement" class="nav-link">Our Team</a>
+				</li>
+				<li class="nav-item">
+                    <a href="#eventselement" class="nav-link">Events</a>
+				</li>
+				<li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+				</li> 
+				<li class="nav-item">
+                    <a href="#contactelement" class="nav-link">Contact</a>
+				</li> 
+				<li class="nav-item">
+                    <a href="FAQ.html" class="nav-link">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- Heading - Centre for Conflict Management -->
     <div class="heading">
@@ -61,14 +100,65 @@
 
     <div class="home-buttons">
     	<p class="btn-text">Join our community and be a support system for many others.</p>
-    	<button class="btn btn-success">Join our initiative</button>
+    	<button class="btn">JOIN</button>
     	<br>
     	<p class="btn-text">In a problem? Need help? Share your thoughts with us.</p>
-    	<button class="btn btn-success">Share your conflict</button>
+    	<button class="btn">SHARE</button>
     </div>
 
-    <!-- Event cards -->
-    <div class="card card1" style="width: 15rem;">
+	<!-- Event cards -->
+
+		<div class="card flip-card c-faderight animatedRight fadeRight" style="width: 15rem;">
+			<div class="flip-card-inner">
+				<div class="flip-card-front">
+					<img src="img_avatar.png" alt="Avatar" style="width:300px;height:260px;">
+				</div>
+				<div class="flip-card-back">
+					<div class="card-body">
+			
+						<h5 class="card-title">Logo-Making Competition</h5>
+			
+						<!-- <h6 class="card-subtitle mb-2 text-muted">logo making competition</h6> -->
+			
+						<p class="card-text">Type : Logo Making</p>
+
+						<p class="card-text">Award : Cash Prize</p>
+
+						<p class="card-text">Last date of registeration: 15 Aug, 2020</p>
+			
+						<a href="#" class="card-link">Details</a>
+			
+						<a href="#" class="card-link">Register Now</a>
+			
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+		<div class="card card2 c-faderight animatedRight fadeRight" style="width: 15rem;">
+		
+			<div class="card-body">
+		
+				<h5 class="card-title">Logo-Making Competition</h5>
+		
+				<!-- <h6 class="card-subtitle mb-2 text-muted">logo making competition</h6> -->
+		
+				<p class="card-text">Type : Logo Making</p>
+
+				<p class="card-text">Award : Cash Prize</p>
+
+				<p class="card-text">Last date of registeration: 15 Aug, 2020</p>
+		
+				<a href="#" class="card-link">Details</a>
+		
+				<a href="#" class="card-link">Register Now</a>
+		
+			</div>
+		</div>
+
+
+	<div class="card card3 c-fadeleft animatedLeft fadeLeft" style="width: 15rem;">
   	
   		<div class="card-body">
 	
@@ -89,49 +179,7 @@
   		</div>
 	</div>
 
-	<div class="card2" style="width: 15rem;">
-  	
-  		<div class="card-body">
-	
-		    <h5 class="card-title">Logo-Making Competition</h5>
-	
-		    <!-- <h6 class="card-subtitle mb-2 text-muted">logo making competition</h6> -->
-	
-		    <p class="card-text">Type : Logo Making</p>
-
-		    <p class="card-text">Award : Cash Prize</p>
-
-		    <p class="card-text">Last date of registeration: 15 Aug, 2020</p>
-	
-		    <a href="#" class="card-link">Details</a>
-	
-		    <a href="#" class="card-link">Register Now</a>
-  	
-  		</div>
-	</div>
-
-	<div class="card3" style="width: 15rem;">
-  	
-  		<div class="card-body">
-	
-		    <h5 class="card-title">Logo-Making Competition</h5>
-	
-		    <!-- <h6 class="card-subtitle mb-2 text-muted">logo making competition</h6> -->
-	
-		    <p class="card-text">Type : Logo Making</p>
-
-		    <p class="card-text">Award : Cash Prize</p>
-
-		    <p class="card-text">Last date of registeration: 15 Aug, 2020</p>
-	
-		    <a href="#" class="card-link">Details</a>
-	
-		    <a href="#" class="card-link">Register Now</a>
-  	
-  		</div>
-	</div>
-
-	<div class="card4" style="width: 15rem;">
+	<div class="card card4 c-fadeleft animatedLeft fadeLeft" style="width: 15rem;">
   	
   		<div class="card-body">
 	
@@ -173,14 +221,15 @@
   		</div>
 	</div> -->
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
+	crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="myhome.css" type="text/css">
 
 </body>
 </html>
