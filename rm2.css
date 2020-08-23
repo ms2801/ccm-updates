@@ -1,0 +1,202 @@
+body{
+	font-family: Noto Sans;
+	background-color: #f2f2f2;
+}
+
+.navbar{
+	padding:0px;
+}
+
+.navbar-brand{
+	margin-left:2rem;
+	margin-right: 2rem;
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 3px;
+	
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	margin-left: 1rem;
+	margin-right: 1rem;
+	width:120px;
+	text-align: center;
+	font-size: 15px;
+	color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	font-size:26px;
+	color: white;
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+.home{
+	height:750px;
+}
+
+#headingGroup{
+	margin-top:8rem;
+}
+
+.subtitle{
+	font-size: 1.2rem;
+}
+
+.btxt{
+	margin-top:3rem;
+	font-size: 1.2rem;
+
+}
+
+.btn{
+	border:1px solid black;
+	background-color:  #003366;
+	color:white;
+	letter-spacing: 0.2rem;
+	text-align: center;
+	border-radius: 0px;
+	margin-top: 0.8rem;
+}
+
+.btn:hover{
+	color:#003366;
+	background-color: white;
+}
+
+.event{
+	height: 750px;
+}
+
+#event-heading{
+ padding-top: 2rem;
+}
+.row{
+	margin:8rem 3rem;
+}
+
+/*.column{
+	width:15rem;
+	padding: 0 10px;
+
+}*/
+
+
+
+.row .flip-card{
+	box-sizing: border-box;
+	border:none;
+	height:280px;
+	width:300px;
+	
+	background-color: transparent;
+	color: black;
+	text-align: center;
+	perspective: 1000px;
+}
+
+
+.row .flip-card-inner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.row .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.row .flip-card-front, .row .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+}
+
+.row .flip-card-front {
+	background-color: #bbb;
+	color: black;
+}
+
+.row .flip-card-back {
+	background-color: dodgerblue;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+.c-faderight, .c-fadeleft{
+	opacity: 0;
+
+}
+
+.animatedRight {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes fadeRight {
+    from {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeRight {
+    from {
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.fadeRight {
+    -webkit-animation-name: fadeRight;
+    animation-name: fadeRight;
+}
+
+.animatedLeft {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes fadeLeft {
+    from {
+        transform: (150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes fadeLeft {
+    from {
+        transform: translateX(150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.fadeLeft {
+    -webkit-animation-name: fadeLeft;
+    animation-name: fadeLeft;
+}
+
+
